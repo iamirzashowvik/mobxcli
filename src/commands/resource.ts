@@ -24,7 +24,6 @@ export default class Resource extends Command {
   public async run(): Promise<void> {
     const {args, flags} = await this.parse(Resource)
 
-    const name = flags.name ?? 'world'
     const dirs = [
       './components', // 0
       './components/app', // 1
@@ -45,7 +44,7 @@ export default class Resource extends Command {
       }
     }
 
-    this.log(`hello ${name} from /Users/faysal/AndroidStudioProjects/R&D/mobxcli/src/commands/resource.ts and args: ${args.file}`)
+    this.log(`Hey, your ${args.file} page is generated. Thank you for using the CLI.\n Mirza Showvik`)
     writeFileSync(dirs[3]  + '/' + args.file + '.controller.ts', getController(args.file))
     writeFileSync(dirs[4]  + '/' + args.file + '.model.ts', getModel(args.file))
     writeFileSync(dirs[5]  + '/' + args.file + '.view.tsx', getView(args.file))
