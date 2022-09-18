@@ -1,6 +1,6 @@
 {
   "name": "mvvmmobxcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a cli to generate mvvm boilerplate code",
   "author": "mirzashowvik @iamirzashowvik",
   "bin": {
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/iamirzashowvik/mobxcli",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "iamirzashowvik/hello-world",
+  "repository": "iamirzashowvik/mobxcli",
   "files": [
     "/bin",
     "/dist",

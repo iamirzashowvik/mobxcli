@@ -20,7 +20,7 @@ $ npm install -g mvvmmobxcli
 $ mobxcli COMMAND
 running command...
 $ mobxcli (--version)
-mvvmmobxcli/0.0.0 darwin-arm64 node-v16.13.2
+mvvmmobxcli/1.0.1 darwin-arm64 node-v16.13.2
 $ mobxcli --help [COMMAND]
 USAGE
   $ mobxcli COMMAND
@@ -65,7 +65,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/iamirzashowvik/mobxcli/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/iamirzashowvik/mobxcli/blob/v1.0.1/dist/commands/hello/index.ts)_
 
 ## `mobxcli hello world`
 
@@ -352,5 +352,5 @@ EXAMPLES
   $ mobxcli resource
 ```
 
-_See code: [dist/commands/resource.ts](https://github.com/iamirzashowvik/mobxcli/blob/v0.0.0/dist/commands/resource.ts)_
+_See code: [dist/commands/resource.ts](https://github.com/iamirzashowvik/mobxcli/blob/v1.0.1/dist/commands/resource.ts)_
 <!-- commandsstop -->
