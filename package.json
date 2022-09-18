@@ -22,6 +22,8 @@
     "@oclif/plugin-plugins": "^2.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
     "@oclif/test": "^2",
     "@types/chai": "^4",
     "@types/mocha": "^9.0.0",
