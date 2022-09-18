@@ -46,7 +46,7 @@ export default class Resource extends Command {
     }
 
     this.log(`hello ${name} from /Users/faysal/AndroidStudioProjects/R&D/mobxcli/src/commands/resource.ts and args: ${args.file}`)
-    writeFileSync(dirs[3]  + '/' + args.file + '.controller.ts', getController(args.file))
+    writeFileSync(dirs[3]  + '/' + args.file + '.controller.ts', getController(args.file.toUpperCase()))
     writeFileSync(dirs[4]  + '/' + args.file + '.model.ts', getModel(args.file))
     writeFileSync(dirs[5]  + '/' + args.file + '.view.tsx', getView(args.file))
     writeFileSync(dirs[6]  + '/' + args.file + '.service.ts', getService(args.file))

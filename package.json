@@ -1,12 +1,12 @@
 {
-  "name": "mobxcli",
-  "version": "0.0.0",
+  "name": "mvvmmobxcli",
+  "version": "1.0.0",
   "description": "a cli to generate mvvm boilerplate code",
   "author": "mirzashowvik @iamirzashowvik",
   "bin": {
     "mobxcli": "./bin/run"
   },
-  "homepage": "https://github.com/iamirzashowvik/hello-world",
+  "homepage": "https://github.com/iamirzashowvik/mobxcli",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": "iamirzashowvik/hello-world",
@@ -67,7 +67,7 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "bugs": "https://github.com/iamirzashowvik/hello-world/issues",
+  "bugs": "https://github.com/iamirzashowvik/mobxcli/issues",
   "keywords": [
     "oclif"
   ],

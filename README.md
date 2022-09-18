@@ -16,11 +16,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g mobxcli
+$ npm install -g mvvmmobxcli
 $ mobxcli COMMAND
 running command...
 $ mobxcli (--version)
-mobxcli/0.0.0 darwin-arm64 node-v16.13.2
+mvvmmobxcli/0.0.0 darwin-arm64 node-v16.13.2
 $ mobxcli --help [COMMAND]
 USAGE
   $ mobxcli COMMAND
@@ -41,6 +41,7 @@ USAGE
 * [`mobxcli plugins:uninstall PLUGIN...`](#mobxcli-pluginsuninstall-plugin-1)
 * [`mobxcli plugins:uninstall PLUGIN...`](#mobxcli-pluginsuninstall-plugin-2)
 * [`mobxcli plugins update`](#mobxcli-plugins-update)
+* [`mobxcli resource [FILE]`](#mobxcli-resource-file)
 
 ## `mobxcli hello PERSON`
 
@@ -64,7 +65,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/iamirzashowvik/hello-world/blob/v0.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/iamirzashowvik/mobxcli/blob/v0.0.0/dist/commands/hello/index.ts)_
 
 ## `mobxcli hello world`
 
@@ -331,4 +332,25 @@ FLAGS
 DESCRIPTION
   Update installed plugins.
 ```
+
+## `mobxcli resource [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ mobxcli resource [FILE] [-n <value>] [-f]
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  describe the command here
+
+EXAMPLES
+  $ mobxcli resource
+```
+
+_See code: [dist/commands/resource.ts](https://github.com/iamirzashowvik/mobxcli/blob/v0.0.0/dist/commands/resource.ts)_
 <!-- commandsstop -->
