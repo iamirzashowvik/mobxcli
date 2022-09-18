@@ -1,5 +1,9 @@
 import {Command, Flags} from '@oclif/core'
 import {existsSync, mkdirSync, writeFileSync} from 'node:fs'
+import {getModel} from '../data/resource/model'
+import {getController} from '../data/resource/controller'
+import {getView} from '../data/resource/view'
+import {getService} from '../data/resource/service'
 
 export default class Resource extends Command {
   static description = 'describe the command here'
@@ -41,13 +45,12 @@ export default class Resource extends Command {
       }
     }
 
-    const content = ` import { observable } from "mobx";
-    export class ${args.file} {
-      @observable value: number = 12;
-    }`
-
     this.log(`hello ${name} from /Users/faysal/AndroidStudioProjects/R&D/mobxcli/src/commands/resource.ts and args: ${args.file}`)
-    writeFileSync(dirs[4]  + '/' + args.file + '.model.ts', content)
+    writeFileSync(dirs[3]  + '/' + args.file + '.controller.ts', getController(args.file))
+    writeFileSync(dirs[4]  + '/' + args.file + '.model.ts', getModel(args.file))
+    writeFileSync(dirs[5]  + '/' + args.file + '.view.tsx', getView(args.file))
+    writeFileSync(dirs[6]  + '/' + args.file + '.service.ts', getService(args.file))
+
     if (args.file && flags.force) {
       this.log(`you input --force and --file: ${args.file}`)
     }
