@@ -18,7 +18,9 @@ $ mobxcli --help [COMMAND]
 USAGE
   $ mobxcli COMMAND
 mobx and mobx-react both packages installed is a prerequisite.
-To generate your boilerplate code run
+To install prerequisite packages, run:
+$ mobxcli init
+To generate your boilerplate code, run:
 $ mobxcli resource your_page
 ...
 ```

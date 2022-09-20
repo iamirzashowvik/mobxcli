@@ -1,6 +1,6 @@
 {
   "name": "mvvmmobxcli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a cli to generate mvvm boilerplate code",
   "author": "Mirza Showvik @iamirzashowvik",
   "bin": {
@@ -51,7 +51,7 @@
     "topicSeparator": " ",
     "topics": {
       "hello": {
-        "description": "Say hello to the world and others"
+        "description": "MobX MVVM CLI"
       }
     }
   },
@@ -69,7 +69,7 @@
   },
   "bugs": "https://github.com/iamirzashowvik/mobxcli/issues",
   "keywords": [
-    "oclif","MobX","MVVM","React","mobxcli"
+    "oclif","MobX","MVVM","React","mobxcli","typescript"
   ],
   "types": "dist/index.d.ts"
 }
