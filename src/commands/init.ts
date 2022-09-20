@@ -19,7 +19,7 @@ export default class Init extends Command {
   public async run(): Promise<void> {
     exec('npm i mobx mobx-react',
       function (error, stdout, stderr) {
-        console.log('stdout: ' + stdout)
+        console.log('Successfully installed all the required packages: mobx mobx-react' + stdout)
         console.log('stderr: ' + stderr)
         if (error !== null) {
           console.log('exec error: ' + error)
