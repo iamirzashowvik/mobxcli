@@ -22,6 +22,8 @@ $ mobxcli resource your_page
 ```
 
 
-documentations : https://medium.com/@showvikmirza/mvvm-architecture-mobxcli-848651a6f19f
+hashnode docs : https://mirzashowvik.hashnode.dev/mvvm-architecture-mobxcli
+documentations : https://medium.com/@showvikmirza/mvvm-architecture-mobxcli-848651a6f19f 
 live demo : https://next-mvvm-mobx-ts-tailwind.vercel.app/
 example project : https://github.com/iamirzashowvik/next-mvvm-mobx-ts-tailwind
+hashnode docs : https://mirzashowvik.hashnode.dev/mvvm-architecture-mobxcli

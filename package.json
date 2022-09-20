@@ -1,6 +1,6 @@
 {
   "name": "mvvmmobxcli",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "a cli to generate mvvm boilerplate code",
   "author": "Mirza Showvik @iamirzashowvik",
   "bin": {
