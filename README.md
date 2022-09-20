@@ -20,3 +20,8 @@ To generate your boilerplate code, run:
 $ mobxcli resource your_page
 ...
 ```
+
+
+documentations : https://medium.com/@showvikmirza/mvvm-architecture-mobxcli-848651a6f19f
+live demo : https://next-mvvm-mobx-ts-tailwind.vercel.app/
+example project : https://github.com/iamirzashowvik/next-mvvm-mobx-ts-tailwind
