@@ -21,7 +21,7 @@
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
     "mobx": "^6.6.2",
-    "mobx-react": "^7.5.3"
+    "mobx-react": "^7.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",
