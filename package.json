@@ -19,7 +19,7 @@
   "dependencies": {
     "@oclif/core": "^1.13.10",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1",
+    "@oclif/plugin-plugins": "^2.1.7",
     "mobx": "^6.6.2",
     "mobx-react": "^7.5.3"
   },
